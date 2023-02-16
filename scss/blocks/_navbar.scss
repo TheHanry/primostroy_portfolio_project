@@ -1,0 +1,19 @@
+.nav {
+    width: 100%;
+    border: var(--color10);
+    padding: 20px 200px 20px 126px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__list {
+        display: flex;
+        width: 840px;
+        justify-content: space-between;
+    }
+    &__link {
+        color: var(--color1);
+    }
+    &__num {
+        color: var(--color1);
+    }
+}

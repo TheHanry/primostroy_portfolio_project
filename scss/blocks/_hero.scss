@@ -1,0 +1,36 @@
+.hero {
+    padding: 289px 286px 321px 200px;
+    background-image: url(/img/hero__main__picture.png);
+    &__paragraph {
+        width: 538px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: var(--color10);
+    }
+    &__heading {
+        margin: 40px 0px 30px 0px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 90px;
+        line-height: 109px;
+        color: var(--color10);
+    }
+    &__con {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 187px;
+        &__minHeading {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: var(--color10);
+        }
+    }
+}
